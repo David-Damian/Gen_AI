@@ -1,0 +1,26 @@
+# environment.yml
+name: gen-ai-udacity-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - scikit-learn
+  - pandas
+  - numpy
+  - pytest
+  - ipython
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - scipy
+  - plotly
+  - pylint
+  - autopep8
+  - joblib
+  - pip
+  - torch
+  - pip:
+    - tueplots
+    #- bayesian-optimization
